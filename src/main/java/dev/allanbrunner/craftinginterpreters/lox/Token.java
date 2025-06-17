@@ -1,4 +1,4 @@
-package dev.allanbrunner.lox;
+package dev.allanbrunner.craftinginterpreters.lox;
 
 public class Token {
     final TokenType type;

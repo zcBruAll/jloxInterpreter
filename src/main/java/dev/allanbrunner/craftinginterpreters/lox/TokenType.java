@@ -1,4 +1,4 @@
-package dev.allanbrunner.lox;
+package dev.allanbrunner.craftinginterpreters.lox;
 
 public enum TokenType {
     // Single-characters token

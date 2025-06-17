@@ -1,11 +1,11 @@
-package dev.allanbrunner.lox;
+package dev.allanbrunner.craftinginterpreters.lox;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static dev.allanbrunner.lox.TokenType.*;
+import static dev.allanbrunner.craftinginterpreters.lox.TokenType.*;
 
 public class Scanner {
     private final String source;

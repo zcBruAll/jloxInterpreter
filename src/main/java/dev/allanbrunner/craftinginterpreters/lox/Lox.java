@@ -1,4 +1,4 @@
-package dev.allanbrunner.lox;
+package dev.allanbrunner.craftinginterpreters.lox;
 
 import java.io.BufferedReader;
 import java.io.IOException;
