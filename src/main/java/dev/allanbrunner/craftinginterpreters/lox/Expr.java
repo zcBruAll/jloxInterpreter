@@ -5,8 +5,11 @@ import java.util.List;
 abstract class Expr {
 	interface Visitor<R> {
 		R visitBinaryExpr(Binary expr);
+
 		R visitGroupingExpr(Grouping expr);
+
 		R visitLiteralExpr(Literal expr);
+
 		R visitUnaryExpr(Unary expr);
 	}
 
@@ -68,6 +71,5 @@ abstract class Expr {
 		final Expr right;
 	}
 
-
-	 abstract <R> R accept(Visitor<R> visitor);
+	abstract <R> R accept(Visitor<R> visitor);
 }
