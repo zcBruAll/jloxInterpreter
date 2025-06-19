@@ -221,8 +221,6 @@ public class Scanner {
 		if (type == null)
 			type = IDENTIFIER;
 		addToken(type);
-
-		addToken(IDENTIFIER);
 	}
 
 	private char advance() {
